@@ -4,17 +4,20 @@
   margin: 0;
   padding: 0;
   color: white;
-  height: 80%;
+  height: 85%;
   width: 100%;
   background-size: 100% auto;
   background-image: url("back.jpg");
   background-repeat: no-repeat;
-  background-position-y: -200px;
+  background-position-y: -130px;
   /* background-position: bottom; */
 
   position: absolute;
 }
-
+.inner-main {
+  /* background-color: rgba(255, 0, 0, 0.05); */
+  /* height: 100%; */
+}
 body {
   padding: 0;
   margin: 0;
@@ -24,7 +27,7 @@ body {
 .navbar {
   display: flex;
   justify-content: space-between;
-  background-color: rgba(255, 0, 0, 0.5);
+  background-color: rgba(255, 0, 0, 0.4);
   padding: 10px; /* top/bottom left-right */
   margin-top: 0;
   z-index: 10;
@@ -86,7 +89,7 @@ body {
   text-decoration: none;
 }
 .get-started-button:hover {
-  background-color: rgba(255, 0, 0, 0.5);
+  background-color: rgb(177, 35, 35);
 }
 
 /* .overlay {
