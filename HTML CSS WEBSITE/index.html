@@ -1,11 +1,15 @@
 <html>
   <head>
     <title>SSDC HTML</title>
-    <link rel="stylesheet" href="main.css" />
 
+    <!-- external css -->
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
 <style>
-
+/* internal css */
 .company-line{
     font-weight: bold;
 }
@@ -19,30 +23,76 @@
     <div class="main-section">
       <div class="inner-main">
 
-      <div class="navbar">
-        <div id="logo">KANTER</div>
-        <div id="menu-items">
-          <ul class="item-list">
-            <a href=""><li class="item">Home</li></a>
-             <a href=""><li class="item">Gallery</li></a>
-            
-             <a href=""><li class="item">Services</li></a>
-             <a href=""><li class="item">Projects</li>            </a>
-             <a href=""><li class="item">About</li>            </a>
-             <a href=""><li class="item">Contact</li>            </a>
-          </ul>
+        <div class="navbar">
+          <div id="logo">SSDC</div>
+          <div id="menu-items">
+            <ul class="item-list">
+              <a href=""><li class="item">Home</li></a>
+              <a href=""><li class="item">Gallery</li></a>
+              
+              <a href=""><li class="item">Services</li></a>
+              <a href=""><li class="item">Projects</li>            </a>
+              <a href=""><li class="item">About</li>            </a>
+              <a href="#contact-us"><li class="item">Contact</li>            </a>
+            </ul>
+          </div>
         </div>
+
+        <section class="hero-section">
+          <div class="main-heading"><h1>SSDC <span style="color:rgba(255, 0, 0, 0.5)">PERFECT<span></h1></div> 
+            <!-- inline css -->
+          <div class="company-line">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt,
+            et?
+          </div>
+          <div class="get-started-button"><a href="#">Get Started</a></div>
+        </section>
       </div>
 
-      <section class="hero-section">
-        <div class="main-heading"><h1>PIXEL <span style="color:rgba(255, 0, 0, 0.5)">PERFECT<span></h1></div>
-        <div class="company-line">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt,
-          et?
-        </div>
-        <div class="get-started-button"><a href="#">Get Started</a></div>
-      </section>
-    </div>
+ 
+
+
+
   </div>
+
+  <section id="cards">
+    <div class="card dark">
+      <div class="card-icon"><i class="fas fa-mobile-alt"></i></div>
+      <div class="card-title">lorem ipsum</div>
+      <div class="card-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos necessitatibus inventore totam in. Nam, nihil!</div>
+
+    </div>
+    <div class="card light">
+      <div class="card-icon"><i class="far fa-heart"></i></div>
+      <div class="card-title">lorem ipsum</div>
+      <div class="card-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos necessitatibus inventore totam in. Nam, nihil!</div>
+    </div>
+    <div class="card dark">
+      <div class="card-icon"><i class="bi bi-file-break"></i></div>
+      <div class="card-title">lorem ipsum</div>
+      <div class="card-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos necessitatibus inventore totam in. Nam, nihil!</div>
+    </div>
+    <div class="card light">
+      <div class="card-icon"><i class="bi bi-display"></i></div>
+      <div class="card-title">lorem ipsum</div>
+      <div class="card-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos necessitatibus inventore totam in. Nam, nihil!</div>
+    </div>
+
+
+  </section>
+
+  <section id="contact-us">
+    <h1>Contact Us</h1>
+    <form target="_blank" action="mailto:sliet.ssdc@gmail.com" id="contact-form">
+      <input class="inp" type="text" placeholder="Name">
+      <input class="inp" type="tel" placeholder="Phone No.">
+      <textarea class="inp" rows="5" placeholder="Enter your message"></textarea>
+      <input type="submit" value="Send" class="submit-button">
+    </form>
+
+
+    <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d27578.026126225734!2d75.6998144813422!3d30.229853374086034!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa45e3a23dfc09f9b!2sSant%20Longowal%20Institute%20of%20Engineering%20and%20Technology!5e0!3m2!1sen!2sin!4v1629371218922!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
+
+  </section>
   </body>
 </html>
